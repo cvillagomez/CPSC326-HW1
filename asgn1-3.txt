@@ -1,0 +1,18 @@
+# Carlos Villagomez and Andrew Zenoni
+# CPSC 326-Organization of Programming Languages
+# January 24, 2018
+
+# This program takes in a user input and computes its factorial
+
+num = readint("Please input a number: ");
+# Using primitive int
+total = 1;
+
+# While statement
+while num > 1 do
+	# Math operators
+	total = num * total;
+	num = num - 1;
+end
+
+println("The factorial of your number is: " + total);

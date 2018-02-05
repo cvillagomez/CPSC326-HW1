@@ -1,0 +1,22 @@
+# Carlos Villagomez and Andrew Zenoni
+# CPSC 326-Organization of Programming Languages
+# January 24, 2018
+
+# This program reassigns a string and double a user inputed number
+
+# Using primitive String
+string = "my first string";
+
+# Output statement
+println(string);
+
+# Assignment statement
+string = "my updated string";
+
+# Output statement
+println(string);
+
+#Input Expression
+userInput = readint("Input a number: ");
+userInput = userInput * 2;
+println("This is double your number " + userInput);

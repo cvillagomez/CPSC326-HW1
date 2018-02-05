@@ -1,0 +1,9 @@
+# First MyPL program
+
+string = "my first string";
+println(string);
+string  = "my updated string";
+println(string);
+userInput = readint("Input a number: ");
+userInput = userInput * 2;
+println("This is double your number " + userInput);

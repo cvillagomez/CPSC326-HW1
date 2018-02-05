@@ -1,0 +1,16 @@
+# Carlos Villagomez and Andrew Zenoni
+# CPSC 326-Organization of Programming Languages
+# January 24, 2018
+
+# This program takes in two numbers and checks if there sum is greater than 10,
+# and if both numbers are even
+
+num1 = readint("Enter a number: ");
+num2 = readint("Enter a different number: ");
+
+# Boolean operators
+if num1 + num2 > 10 and num1 % 2 == 0 and num2 % 2 == 0 then
+	println("Both numbers are even and their sum is greater than 10");
+else 
+	println("Either the two number's sum is less than 10, or one of your numbers is odd");
+end

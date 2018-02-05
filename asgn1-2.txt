@@ -1,0 +1,19 @@
+# Carlos Villagomez and Andrew Zenoni
+# CPSC 326-Organization of Programming Languages
+# January 24, 2018
+
+# This program creates a list and finds sum of its first two elements,
+# then checks if last element is odd 
+
+# List type
+list = [5, 7, 2, 1];
+sum = list[0] + list[1];
+println("The sum of the first two items in list is: " + sum);
+
+#Conditional statements
+if list[3] % 2 != 0 then
+	println("The last number in the list is odd");s
+else
+	println("The last number in the list is even");
+end
+
